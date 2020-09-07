@@ -21,6 +21,10 @@ class ProjectController extends Controller
         return view('projects.show', compact('project'));
     }
 
+    public function create() {
+        return view('projects.create');
+    }
+
     public function store(Project $project) {
 
         auth()->user()->projects()->create(request()->validate([
