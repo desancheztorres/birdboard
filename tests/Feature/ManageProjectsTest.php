@@ -6,12 +6,13 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
-class ManageProjectsTest extends TestCase
-{
+class ManageProjectsTest extends TestCase {
+
     use RefreshDatabase, WithFaker;
 
     /** @test */
-    public function guests_cannot_manage_projects() {
+    public function guests_cannot_manage_projects()
+    {
         $project = factory('App\Project')->create();
 
         $this->get('/projects')->assertRedirect('login');
@@ -31,8 +32,8 @@ class ManageProjectsTest extends TestCase
         $this->get('/projects/create')->assertStatus(200);
 
         $attributes = [
-          'title' => $this->faker->sentence,
-          'description' => $this->faker->paragraph,
+            'title' => $this->faker->sentence,
+            'description' => $this->faker->paragraph,
         ];
 
         $this->post('/projects', $attributes)->assertRedirect('/projects');
@@ -43,8 +44,8 @@ class ManageProjectsTest extends TestCase
     }
 
     /** @test */
-    public function a_user_can_view_their_project() {
-
+    public function a_user_can_view_their_project()
+    {
         $this->withoutExceptionHandling();
 
         $this->be(factory('App\User')->create());
@@ -57,9 +58,8 @@ class ManageProjectsTest extends TestCase
     }
 
     /** @test */
-    public function an_authenticated_user_cannot_view_the_projects_of_others() {
-//        $this->withoutExceptionHandling();
-
+    public function an_authenticated_user_cannot_view_the_projects_of_others()
+    {
         $this->be(factory('App\User')->create());
 
         $project = factory('App\Project')->create();
@@ -69,7 +69,8 @@ class ManageProjectsTest extends TestCase
     }
 
     /** @test */
-    public function a_project_requires_a_title() {
+    public function a_project_requires_a_title()
+    {
         $this->actingAs(factory('App\User')->create());
 
         $attributes = factory('App\Project')->raw(['title' => '']);
@@ -78,7 +79,8 @@ class ManageProjectsTest extends TestCase
     }
 
     /** @test */
-    public function a_project_requires_a_description() {
+    public function a_project_requires_a_description()
+    {
         $this->actingAs(factory('App\User')->create());
 
         $attributes = factory('App\Project')->raw(['description' => '']);
