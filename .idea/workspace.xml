@@ -16,17 +16,12 @@
     <list default="true" id="0d52d499-ccac-42b7-b529-ef91a3345153" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/projects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ManageProjectsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +61,7 @@
           <mapping local-root="$PROJECT_DIR$" remote-root="/Users/cristian/.composer/vendor/laravel/valet" />
         </path_mappings>
       </server>
-      <server host="" id="15995c0b-2276-4833-b61c-a7c31e6b0f5c" use_path_mappings="true">
+      <server id="15995c0b-2276-4833-b61c-a7c31e6b0f5c" use_path_mappings="true">
         <path_mappings>
           <mapping local-root="$PROJECT_DIR$" remote-root="/Users/cristian/.composer/vendor/laravel/valet" />
         </path_mappings>
@@ -245,7 +240,8 @@
       <workItem from="1599931006837" duration="1296000" />
       <workItem from="1599933592093" duration="3131000" />
       <workItem from="1599940265329" duration="57000" />
-      <workItem from="1600021180432" duration="2474000" />
+      <workItem from="1600021180432" duration="4065000" />
+      <workItem from="1600621208287" duration="3193000" />
     </task>
     <servers />
   </component>
@@ -385,18 +381,18 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="450" y="200" width="540" height="540" key="StructurePopup/0.23.1440.877@0.23.1440.877" timestamp="1599917679861" />
-    <state width="548" height="445" key="SwitcherDM" timestamp="1599929256027">
+    <state width="548" height="445" key="SwitcherDM" timestamp="1600627020396">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="548" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1599929256027" />
+    <state width="548" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1600627020396" />
     <state x="516" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599863288277">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="516" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1599863288277" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600024218410">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600625561155">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600024218410" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600625561155" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
